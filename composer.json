@@ -1,0 +1,5 @@
+{
+    "require": {
+        "phpawcom/thawani-php-class": "^2.0"
+    }
+}
