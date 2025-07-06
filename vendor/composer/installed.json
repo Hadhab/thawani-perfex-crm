@@ -1,0 +1,55 @@
+{
+    "packages": [
+        {
+            "name": "phpawcom/thawani-php-class",
+            "version": "2.0.2",
+            "version_normalized": "2.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpawcom/thawani-php-class.git",
+                "reference": "94d528d27f09f760944d444695956b1724d9bfd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpawcom/thawani-php-class/zipball/94d528d27f09f760944d444695956b1724d9bfd1",
+                "reference": "94d528d27f09f760944d444695956b1724d9bfd1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=7.1"
+            },
+            "time": "2024-03-22T22:51:07+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/thawani/thawani.php",
+                    "src/thawani/sqlite.php"
+                ],
+                "psr-4": {
+                    "thawani-php-class\\": "src/thawani/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Abdulaziz Al Rashdi",
+                    "email": "me@alrashdi.co"
+                }
+            ],
+            "description": "This class to help with the integration with Thawani Gateway (V2.0)",
+            "support": {
+                "issues": "https://github.com/phpawcom/thawani-php-class/issues",
+                "source": "https://github.com/phpawcom/thawani-php-class/tree/2.0.2"
+            },
+            "abandoned": "phpawcom/thawani_laravel",
+            "install-path": "../phpawcom/thawani-php-class"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
